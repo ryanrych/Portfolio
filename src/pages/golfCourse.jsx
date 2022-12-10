@@ -10,7 +10,7 @@ import Seo from "@lekoarts/gatsby-theme-cara/src/components/seo"
 import Content from "@lekoarts/gatsby-theme-cara/src/elements/content"
 import Inner from "@lekoarts/gatsby-theme-cara/src/elements/inner"
 
-const HeartAttack = () => (
+const GolfCourse = () => (
   <Layout>
     <Parallax pages={1}>
       <div>
@@ -43,21 +43,23 @@ const HeartAttack = () => (
         </Divider>
         <Content sx={{ variant: `texts.bigger` }} speed={0.4} offset={0} factor={1}>
           <Inner>
-            <Themed.h3>International Cardiology Consultants Heart Attack Prevention App</Themed.h3>
-            <Themed.h6>July 2022 | <Link to="https://github.com/ryanrych/International-Cardiology-Consultants-Heart-Attack-Screening-App" target="_blank">GitHub Repo</Link></Themed.h6>
+            <Themed.h3>Golf Course Companion App</Themed.h3>
+            <Themed.h6>May 2020 | <Link to="https://github.com/ryanrych/Golf-Score-App" target="_blank">GitHub Repo</Link></Themed.h6>
             <br/>
             <Themed.h5>About:</Themed.h5>
             <Themed.p>
-                This was the second app I made during my time contracting for the International Cardiology Consultants. It 
-                was made for the hospitals in the ICC's Mexico program. Patients fill out the form and based on their answers
-                a treatment plan is selected.<br/><br/>I made this app using Javascript and React Native. It was deployed to both
-                the IOS app store and the Google Play store using Expo deployment, but is now removed as all sites that 
-                need it have it.
+            An app written for my senior engineering class in high school. The goal is for golfers to have an easy 
+            way to track their progress by giving them as many data points as possible. This is done by giving information 
+            such as best score, average score, par rate, green rate, and more for each hole and for the entire course. 
+            Along with personal data, it keeps the same data points for all of the golfers on the same course combined to 
+            give users a feel for how they stack up to other golfers on the same course. I've also added a leaderboard 
+            with several records that anybody can set, this adds a bit of competition for those who want to partake.<br/><br/>
+            This was written in Python using the Kivy module for the front end.
             </Themed.p>
             <div style={{display: "flex", flexDirection: "row"}}>
-              <img src="../images/heartAttack1.png" width="132" height="281" />
-              <img src="../images/heartAttack2.png" />
-              <img src="../images/heartAttack3.png" />
+              <img src="../images/catalog1.png" width="330" height="260" />
+              <img src="../images/catalog2.png" />
+              <img src="../images/catalog3.png" />
             </div>
           </Inner>
         </Content>
@@ -66,6 +68,6 @@ const HeartAttack = () => (
   </Layout>
 )
 
-export default HeartAttack
+export default GolfCourse
 
-export const Head = () => <Seo title="Heart Attack Prevention App" />
+export const Head = () => <Seo title="Golf Course App" />

@@ -10,7 +10,7 @@ import Seo from "@lekoarts/gatsby-theme-cara/src/components/seo"
 import Content from "@lekoarts/gatsby-theme-cara/src/elements/content"
 import Inner from "@lekoarts/gatsby-theme-cara/src/elements/inner"
 
-const HeartAttack = () => (
+const Bot = () => (
   <Layout>
     <Parallax pages={1}>
       <div>
@@ -43,22 +43,19 @@ const HeartAttack = () => (
         </Divider>
         <Content sx={{ variant: `texts.bigger` }} speed={0.4} offset={0} factor={1}>
           <Inner>
-            <Themed.h3>International Cardiology Consultants Heart Attack Prevention App</Themed.h3>
-            <Themed.h6>July 2022 | <Link to="https://github.com/ryanrych/International-Cardiology-Consultants-Heart-Attack-Screening-App" target="_blank">GitHub Repo</Link></Themed.h6>
+            <Themed.h3>Investment Bot</Themed.h3>
+            <Themed.h6>June 2021</Themed.h6>
             <br/>
             <Themed.h5>About:</Themed.h5>
             <Themed.p>
-                This was the second app I made during my time contracting for the International Cardiology Consultants. It 
-                was made for the hospitals in the ICC's Mexico program. Patients fill out the form and based on their answers
-                a treatment plan is selected.<br/><br/>I made this app using Javascript and React Native. It was deployed to both
-                the IOS app store and the Google Play store using Expo deployment, but is now removed as all sites that 
-                need it have it.
+                This was a side project I was working on in the summer of 2021. It was a bot that read suggestions from various 
+                stock/crypto based Twitter accounts and from more reputable sources such as The Motley Fool. It would then 
+                buy the stock/crypto for a short amount of time, hoping others would follow the suggestion and the value would rise. 
+                The goal was to run this as a mutual fund that worked soley on getting as many quick buy and sells 
+                as possible rather than the traditional way of holding in secure assets for long periods of time.<br/><br/>
+                This was made in Python using Tweepy to read Twitter, Beautiful Soup to read other sites, and Robin Stocks 
+                to buy and sell the stocks and crypto. It was put onto a Raspberry Pi so that it could continuously run.
             </Themed.p>
-            <div style={{display: "flex", flexDirection: "row"}}>
-              <img src="../images/heartAttack1.png" width="132" height="281" />
-              <img src="../images/heartAttack2.png" />
-              <img src="../images/heartAttack3.png" />
-            </div>
           </Inner>
         </Content>
       </div>
@@ -66,6 +63,6 @@ const HeartAttack = () => (
   </Layout>
 )
 
-export default HeartAttack
+export default Bot
 
-export const Head = () => <Seo title="Heart Attack Prevention App" />
+export const Head = () => <Seo title="Investment Bot" />

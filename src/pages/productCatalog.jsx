@@ -10,7 +10,7 @@ import Seo from "@lekoarts/gatsby-theme-cara/src/components/seo"
 import Content from "@lekoarts/gatsby-theme-cara/src/elements/content"
 import Inner from "@lekoarts/gatsby-theme-cara/src/elements/inner"
 
-const HeartAttack = () => (
+const Catalog = () => (
   <Layout>
     <Parallax pages={1}>
       <div>
@@ -43,21 +43,23 @@ const HeartAttack = () => (
         </Divider>
         <Content sx={{ variant: `texts.bigger` }} speed={0.4} offset={0} factor={1}>
           <Inner>
-            <Themed.h3>International Cardiology Consultants Heart Attack Prevention App</Themed.h3>
-            <Themed.h6>July 2022 | <Link to="https://github.com/ryanrych/International-Cardiology-Consultants-Heart-Attack-Screening-App" target="_blank">GitHub Repo</Link></Themed.h6>
+            <Themed.h3>Acurite Product Catalog</Themed.h3>
+            <Themed.h6>January 2020 | <Link to="https://github.com/ryanrych/PFOC_PRODUCTS" target="_blank">GitHub Repo</Link></Themed.h6>
             <br/>
             <Themed.h5>About:</Themed.h5>
             <Themed.p>
-                This was the second app I made during my time contracting for the International Cardiology Consultants. It 
-                was made for the hospitals in the ICC's Mexico program. Patients fill out the form and based on their answers
-                a treatment plan is selected.<br/><br/>I made this app using Javascript and React Native. It was deployed to both
-                the IOS app store and the Google Play store using Expo deployment, but is now removed as all sites that 
-                need it have it.
+                This was the first full software development project I have ever completed. The product managers 
+                in the Acurite team of Primex, Family of Companies needed a user friendly application that allowed 
+                them to search for products by SKU number or by selecting options in multiple categories. There were
+                also options for users to add, edit, or delete products from the catalog if they had the admin
+                password.<br/><br/>
+                I made this desktop app in Java using Java Swing for the front end. Unfortunately a backend couldn't be made
+                because the company didn't have server space to spare so the products had to be downloaded locally.
             </Themed.p>
             <div style={{display: "flex", flexDirection: "row"}}>
-              <img src="../images/heartAttack1.png" width="132" height="281" />
-              <img src="../images/heartAttack2.png" />
-              <img src="../images/heartAttack3.png" />
+              <img src="../images/catalog1.png" width="330" height="260" />
+              <img src="../images/catalog2.png" />
+              <img src="../images/catalog3.png" />
             </div>
           </Inner>
         </Content>
@@ -66,6 +68,6 @@ const HeartAttack = () => (
   </Layout>
 )
 
-export default HeartAttack
+export default Catalog
 
-export const Head = () => <Seo title="Heart Attack Prevention App" />
+export const Head = () => <Seo title="MAR Product Catalog" />

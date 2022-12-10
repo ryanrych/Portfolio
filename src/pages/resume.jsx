@@ -10,7 +10,7 @@ import Seo from "@lekoarts/gatsby-theme-cara/src/components/seo"
 import Content from "@lekoarts/gatsby-theme-cara/src/elements/content"
 import Inner from "@lekoarts/gatsby-theme-cara/src/elements/inner"
 
-const HeartAttack = () => (
+const resume = () => (
   <Layout>
     <Parallax pages={1}>
       <div>
@@ -43,22 +43,8 @@ const HeartAttack = () => (
         </Divider>
         <Content sx={{ variant: `texts.bigger` }} speed={0.4} offset={0} factor={1}>
           <Inner>
-            <Themed.h3>International Cardiology Consultants Heart Attack Prevention App</Themed.h3>
-            <Themed.h6>July 2022 | <Link to="https://github.com/ryanrych/International-Cardiology-Consultants-Heart-Attack-Screening-App" target="_blank">GitHub Repo</Link></Themed.h6>
-            <br/>
-            <Themed.h5>About:</Themed.h5>
-            <Themed.p>
-                This was the second app I made during my time contracting for the International Cardiology Consultants. It 
-                was made for the hospitals in the ICC's Mexico program. Patients fill out the form and based on their answers
-                a treatment plan is selected.<br/><br/>I made this app using Javascript and React Native. It was deployed to both
-                the IOS app store and the Google Play store using Expo deployment, but is now removed as all sites that 
-                need it have it.
-            </Themed.p>
-            <div style={{display: "flex", flexDirection: "row"}}>
-              <img src="../images/heartAttack1.png" width="132" height="281" />
-              <img src="../images/heartAttack2.png" />
-              <img src="../images/heartAttack3.png" />
-            </div>
+          <Themed.h3>My Resume</Themed.h3>
+            <iframe src="https://drive.google.com/file/d/1ESBcY3IP8tzl8UXlM-FJefQbhDGm5F8t/preview" width="80%" height="600" allow="autoplay"></iframe>
           </Inner>
         </Content>
       </div>
@@ -66,6 +52,6 @@ const HeartAttack = () => (
   </Layout>
 )
 
-export default HeartAttack
+export default resume
 
-export const Head = () => <Seo title="Heart Attack Prevention App" />
+export const Head = () => <Seo title="Resume" />
