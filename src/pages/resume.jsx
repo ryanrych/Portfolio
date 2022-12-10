@@ -44,7 +44,7 @@ const resume = () => (
         <Content sx={{ variant: `texts.bigger` }} speed={0.4} offset={0} factor={1}>
           <Inner>
           <Themed.h3>My Resume</Themed.h3>
-            <iframe src="https://drive.google.com/file/d/1ESBcY3IP8tzl8UXlM-FJefQbhDGm5F8t/preview" width="80%" height="600" allow="autoplay"></iframe>
+          <iframe src="https://drive.google.com/file/d/1ZrOBtt8E04ibTlmzlIEZMJUNtMN4hvAx/preview" width="80%" height="480" allow="autoplay"></iframe>
           </Inner>
         </Content>
       </div>
