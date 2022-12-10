@@ -36,7 +36,7 @@ const Catalog = () => (
           <Svg icon="triangle" width={8} stroke color="icon_darker" left="25%" top="5%" />
           <Svg icon="circle" width={64} color="icon_green" left="95%" top="5%" />
           <Svg icon="box" hiddenMobile width={64} color="icon_purple" left="5%" top="90%" />
-          <Svg icon="box" width={6} color="icon_darkest" left="20%" top="13%" />
+          <Svg icon="box" width={6} color="icon_darkest" left="20%" top="17%" />
           <Svg icon="box" width={12} color="icon_darkest" left="40%" top="19%" />
           <Svg icon="hexa" width={16} stroke color="icon_darker" left="10%" top="50%" />
           <Svg icon="hexa" width={8} stroke color="icon_darker" left="80%" top="70%" />
@@ -56,10 +56,10 @@ const Catalog = () => (
                 I made this desktop app in Java using Java Swing for the front end. Unfortunately a backend couldn't be made
                 because the company didn't have server space to spare so the products had to be downloaded locally.
             </Themed.p>
-            <div style={{display: "flex", flexDirection: "row"}}>
-              <img src="../images/catalog1.png" width="330" height="260" />
-              <img src="../images/catalog2.png" />
-              <img src="../images/catalog3.png" />
+            <div style={{display: "flex", flexDirection: "row", justifyContent: "space-evenly"}}>
+              <img src="../../images/catalog1.png" width="330" height="260" />
+              <img src="../../images/catalog2.png" width="330" height="260"/>
+              <img src="../../images/catalog3.png" width="310" height="290"/>
             </div>
           </Inner>
         </Content>

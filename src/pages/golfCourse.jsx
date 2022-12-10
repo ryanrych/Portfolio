@@ -14,7 +14,7 @@ const GolfCourse = () => (
   <Layout>
     <Parallax pages={1}>
       <div>
-        <Divider speed={0.2} offset={0} factor={1}>
+      <Divider speed={0.2} offset={0} factor={1}>
           <UpDown>
             <Svg icon="hexa" width={48} stroke color="icon_red" left="60%" top="70%" />
             <Svg icon="box" width={6} color="icon_darker" left="60%" top="15%" />
@@ -56,10 +56,11 @@ const GolfCourse = () => (
             with several records that anybody can set, this adds a bit of competition for those who want to partake.<br/><br/>
             This was written in Python using the Kivy module for the front end.
             </Themed.p>
-            <div style={{display: "flex", flexDirection: "row"}}>
-              <img src="../images/catalog1.png" width="330" height="260" />
-              <img src="../images/catalog2.png" />
-              <img src="../images/catalog3.png" />
+            <div style={{display: "flex", flexDirection: "row", justifyContent: "space-evenly"}}>
+              <img src="../../images/golfCourse1.png" width="148" height="255" />
+              <img src="../../images/golfCourse2.png" width="148" height="255"/>
+              <img src="../../images/golfCourse3.png" width="148" height="255"/>
+              <img src="../../images/golfCourse4.png" width="148" height="255"/>
             </div>
           </Inner>
         </Content>

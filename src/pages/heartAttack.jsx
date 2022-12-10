@@ -54,10 +54,10 @@ const HeartAttack = () => (
                 the IOS app store and the Google Play store using Expo deployment, but is now removed as all sites that 
                 need it have it.
             </Themed.p>
-            <div style={{display: "flex", flexDirection: "row"}}>
-              <img src="../images/heartAttack1.png" width="132" height="281" />
-              <img src="../images/heartAttack2.png" />
-              <img src="../images/heartAttack3.png" />
+            <div style={{display: "flex", flexDirection: "row", justifyContent: "space-evenly"}}>
+              <img src="../../images/heartAttack1.png" width="132" height="281" style={{"border-radius":"10%"}} />
+              <img src="../../images/heartAttack2.png" width="132" height="281" style={{"border-radius":"10%"}} />
+              <img src="../../images/heartAttack3.png" width="132" height="281" style={{"border-radius":"10%"}} />
             </div>
           </Inner>
         </Content>
