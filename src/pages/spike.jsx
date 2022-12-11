@@ -47,7 +47,7 @@ const Spike = () => (
             <br/>
             <Themed.h5>About:</Themed.h5>
             <Themed.p>
-                This project was given to my and 2 other interns at the beginning of our summer at Next Gen HQ. 
+                This project was given to me and 2 other interns at the beginning of our summer at Next Gen HQ. 
                 It was used as a sort of test project so that we could learn the stack and so the development team could 
                 see our proficiency.<br/><br/>It is a simple social media mobile app that allows users to create profiles with a username, 
                 password, and profile picture. Users could create posts with a headline and body and scroll through the timeline 
