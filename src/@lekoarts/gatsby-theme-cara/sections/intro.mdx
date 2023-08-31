@@ -1,10 +1,17 @@
+<script>
+    var screen_width = screen.width;
+    if(screen_width<1024){
+        document.querySelector(".desktop").remove();
+    }
+</script>
+
 <div margin="25%">
 <div style={{display: "flex", flexDirection: "row", justifyContent: "space-evenly"}}>
 <img src="../../images/me.png" width="183" height="184" style={{borderRadius:"70%"}}/>
 </div>
 <h1>Hi, I'm Ryan</h1>
 
-<p>
+<p class="desktop">
 I'm a computer science and applied mathematics student at Stony Brook University. I have experience in full stack mobile/web development, IPaaS programming, and algorithms research. I made this site to showcase a collection of my top projects. Enjoy!\
 [LinkedIn](https://www.linkedin.com/in/ryan-rychlak/) | [GitHub](https://github.com/ryanrych) | [Resume](/resume)
 </p>
