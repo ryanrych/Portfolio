@@ -1,9 +1,12 @@
-<script>
-    var screen_width = screen.width;
-    if(screen_width<1024){
-        document.querySelector(".desktop").remove();
-    }
-</script>
+<head>
+<style> 
+
+@media only screen and (max-width: 600px) {
+ .desktop 
+ {display:none;}
+}
+</style>
+</head>
 
 <div margin="25%">
 <div style={{display: "flex", flexDirection: "row", justifyContent: "space-evenly"}}>
