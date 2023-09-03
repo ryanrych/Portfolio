@@ -18,7 +18,7 @@
   "dependencies": {
     "@lekoarts/gatsby-theme-cara": "^5.0.0",
     "@react-pdf/renderer": "^3.0.1",
-    "gatsby": "^5.0.0",
+    "gatsby": "^5.12.3",
     "gatsby-plugin-manifest": "^5.0.0",
     "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.30",
     "gatsby-remark-images": "^7.2.0",
